@@ -1,0 +1,120 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+main {
+	background: #171d21;
+
+	align-items: center;
+	justify-content: center;
+}
+
+rt {
+	width: 100%;
+
+	text-align: left;
+
+	margin: 3px;
+}
+
+ruby {
+	font-size: 30px;
+}
+
+strong {
+	height: 8px;
+	width: 67px;
+
+	font-size: 9px;
+	line-height: 8px;
+}
+
+span {
+	height: 12px;
+	width: 67px;
+
+	font-size: 9px;
+	line-height: 12px;
+}
+
+#cube > div {
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#cube {
+	height: 350px;
+	width: 350px;
+
+	position: relative;
+
+	transform: rotateX(-20deg) rotateY(-45deg);
+	transform-style: preserve-3d;
+}
+
+	#cube .top {
+		position: absolute;
+		top: -214px;
+
+		transform: rotateX(90deg);
+	}
+
+	#cube .right {
+		position: absolute;
+		top: -38px;
+		left: 176px;
+
+		transform: rotateY(90deg);
+	}
+
+	#cube .bottom {
+		position: absolute;
+
+		transform: rotateX(90deg) translateZ(-137px);
+	}
+
+	#cube .left {
+		position: absolute;
+		top: -38px;
+		left: -176px;
+
+		transform: rotateY(-90deg);
+	}
+
+	#cube .front {
+		position: absolute;
+		top: -38px;
+
+		transform: translateZ(176px);
+	}
+
+	#cube .back {
+		position: absolute;
+		top: -38px;
+
+		transform: translateZ(-176px);
+	}
+
+	#cube:hover * {
+		background: #607d8b;
+		box-shadow: 0 0 20vh #6a9e99;
+	}
+
+.cell {
+	height: 70px;
+	width: 70px;
+
+	color: #cce2db;
+
+	background: #1d3b4a;
+	display: flex;
+
+	box-shadow: 2px 2px 15px 2px #7393a2 inset, 0 0 0 1px #6a9e99;
+
+	flex-direction: column;
+	align-items: center;
+}

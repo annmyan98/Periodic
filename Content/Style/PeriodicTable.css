@@ -1,0 +1,211 @@
+main {
+	background: #1f1f1f;
+}
+
+h1 {
+	position: absolute;
+
+	color: #dcf2ff;
+	font-size: 29px;
+
+	margin-left: 290px;
+}
+
+ruby {
+	height: 30px;
+	width: 45px;
+
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+
+	margin: 3px;
+}
+
+rt {
+	width: 50px;
+}
+
+strong {
+	height: 8px;
+	width: 50px;
+
+	font-size: 8px;
+	line-height: 8px;
+}
+
+span {
+	height: 8px;
+	width: 50px;
+
+	font-size: 8px;
+	line-height: 8px;
+}
+
+a {
+	color: #fff;
+}
+
+.actinide .cellElem, #actinide {
+	background: #a850b7;
+	border: 1px solid #a546b5;
+	box-shadow: 2px 2px 2px #bb64ca;
+}
+
+.alkali_metal .cellElem, #alkali_metal {
+	background-color: #f38e6f;
+	border: 1px solid #d88065;
+	box-shadow: 2px 2px 2px #d6846a;
+}
+
+.alkaline_metal .cellElem, #alkaline_metal {
+	background-color: #ffbc59;
+	border: 1px solid #f1ad49;
+	box-shadow: 2px 2px 2px #e8a94c;
+}
+
+.basic_metal .cellElem, #basic_metal {
+	background-color: #6bbb6e;
+	border: 1px solid #72b174;
+	box-shadow: 2px 2px 2px #57c55b;
+}
+
+.cell {
+	width: 50px;
+	display: table-cell;
+	padding: 2px;
+}
+
+.cellElem {
+	font-weight: bold;
+	display: block;
+	border-radius: 3px;
+	transition: transform 1.5s;
+}
+
+.emptyDiv {
+	display: table-cell;
+	padding: 3px;
+}
+
+.halogen .cellElem, #halogen {
+	background-color: #a57bad;
+	border: 1px solid #ae61b9;
+	box-shadow: 2px 2px 2px #92649a;
+}
+
+.lanthanide .cellElem, #lanthanide {
+	background: #ff91b7;
+	border: 1px solid #e082a2;
+	box-shadow: 2px 2px 2px #d697ad;
+}
+
+.noble_gas .cellElem, #noble_gas {
+	background-color: #dea2e8;
+	border: 1px solid #d48be0;
+	box-shadow: 2px 2px 2px #ce9ed6;
+}
+
+.nonmetal .cellElem, #nonmetal {
+	background-color: #3446ab;
+	border: 1px solid #4c5cb5;
+	box-shadow: 2px 2px 2px #293994;
+}
+
+.other ruby {
+	height: 20px;
+	width: 45px;
+	font-size: 11px;
+	text-align: center;
+	display: block;
+}
+
+.other rt {
+	display: none;
+}
+
+.other strong, .other span {
+	font-size: 9px;
+}
+
+.semi_metal .cellElem, #semi_metal {
+	background-color: #7ad6e2;
+	border: 1px solid #55adf3;
+	box-shadow: 2px 2px 2px #80bbd6;
+}
+
+.row {
+	display: table-row;
+}
+
+.table {
+	position: relative;
+	color: #fff;
+	background-color: #8fb9a6;
+	opacity: .96;
+	padding: 10px 30px 30px 30px;
+	border-radius: 15px;
+	margin: auto;
+}
+
+.tbody {
+	width: 100%;
+	display: table;
+}
+
+	.tbody:nth-of-type(6) {
+		display: block;
+		margin-left: 16.7%;
+	}
+
+.transition_metal .cellElem, #transition_metal {
+	background-color: #e6d326;
+	border: 1px solid #f3e038;
+	box-shadow: 2px 2px 2px #e2dca2;
+}
+
+.window {
+	height: 115px;
+	width: 140px;
+
+	position: absolute;
+
+	border-radius: 5px;
+	margin: 40px 0 0 400px;
+
+	transition: transform 1.5s;
+}
+
+#change {\\b7 Void using # in css
+	height: 120px;
+	width: 140px;
+
+	display: table-row;
+}
+
+#change ruby {
+	font-size: 60px;
+}
+
+#change rt {
+	height: 25px;
+	width: 130px;
+
+	font-size: 13px;
+}
+
+#change strong, #change span {
+	height: 20px;
+	width: 140px;
+
+	font-size: 15px;
+	text-align: center;
+	text-overflow: ellipsis;
+
+	display: block;
+	overflow: hidden;
+
+	margin-top: 5px;
+
+	line-height: 20px;
+}

@@ -1,0 +1,196 @@
+main {
+	background: #1f1f1f;
+}
+
+h1 {
+	position: absolute;
+	top: 5%;
+
+	color: #dcf2ff;
+	font-size: 35px;
+
+	margin-left: 290px;
+}
+
+table {
+	position: relative;
+
+	color: #fff;
+
+	background-color: #8fb9a6;
+	opacity: .96;
+
+	padding: 10px 30px 20px 30px;
+	border-radius: 15px;
+	margin: auto;
+}
+
+tfoot {
+	position: absolute;
+	top: 101%;
+	left: 13%;
+}
+
+td {
+	padding: 1px;
+
+	transition: transform 1.5s;
+}
+
+small {
+	position: absolute;
+
+	font-size: 7px;
+
+	margin: 2px;
+}
+
+big {
+	height: 33px;
+	width: 60px;
+
+	font-size: 23px;
+	text-align: center;
+
+	display: block;
+
+	line-height: 40px;
+}
+
+strong {
+	height: 14px;
+	width: 60px;
+
+	font-size: 8px;
+
+	line-height: 14px;
+}
+
+span {
+	height: 12px;
+	width: 60px;
+
+	font-size: 8px;
+
+	line-height: 12px;
+}
+
+marquee {
+	width: 5%;
+
+	position: absolute;
+	top: 71.4%;
+	left: 13.3%;
+}
+
+.actinide .cell, #actinide {
+	background: #a850b7;
+
+	border: 1px solid #a546b5;
+	box-shadow: 2px 2px 2px #bb64ca;
+}
+
+.alkali_metal .cell, #alkali_metal {
+	background-color: #f38e6f;
+
+	border: 1px solid #d88065;
+	box-shadow: 2px 2px 2px #d6846a;
+}
+
+.alkaline_metal .cell, #alkaline_metal {
+	background-color: #ffbc59;
+
+	border: 1px solid #f1ad49;
+	box-shadow: 2px 2px 2px #e8a94c;
+}
+
+.animation {
+	transform: scale3d(1.1, 1.1, 1.1);
+	transition: transform 1.5s;
+}
+
+.basic_metal .cell, #basic_metal {
+	background-color: #6bbb6e;
+
+	border: 1px solid #72b174;
+	box-shadow: 2px 2px 2px #57c55b;
+}
+
+.cell {
+	border-radius: 3px;
+}
+
+.halogen .cell, #halogen {
+	background-color: #a57bad;
+
+	border: 1px solid #ae61b9;
+	box-shadow: 2px 2px 2px #92649a;
+}
+
+.lanthanide .cell, #lanthanide {
+	background: #ff91b7;
+
+	border: 1px solid #e082a2;
+	box-shadow: 2px 2px 2px #d697ad;
+}
+
+.noble_gas .cell, #noble_gas {
+	background-color: #dea2e8;
+
+	border: 1px solid #d48be0;
+	box-shadow: 2px 2px 2px #ce9ed6;
+}
+
+.nonmetal .cell, #nonmetal {
+	background-color: #3446ab;
+
+	border: 1px solid #4c5cb5;
+	box-shadow: 2px 2px 2px #293994;
+}
+
+.other big {
+	height: 25px;
+	width: 60px;
+
+	font-size: 11px;
+	text-align: center;
+
+	display: block;
+}
+
+.other small {
+	display: none;
+}
+
+.other strong, .other span {
+	font-size: 9px;
+}
+
+.semi_metal .cell, #semi_metal {
+	background-color: #7ad6e2;
+
+	border: 1px solid #55adf3;
+	box-shadow: 2px 2px 2px #80bbd6;
+}
+
+.transition_metal .cell, #transition_metal {
+	background-color: #e6d326;
+
+	border: 1px solid #f3e038;
+	box-shadow: 2px 2px 2px #e2dca2;
+}
+
+#alkali_metal, #transition_metal, #basic_metal, #semi_metal, #nonmetal, #halogen, #noble_gas, #lanthanide, #actinide {
+	height: 28px;
+	width: 105px;
+
+	color: #fff;
+	text-overflow: ellipsis;
+
+	overflow: hidden;
+
+	border-radius: 3px;
+	margin: 5px;
+
+	white-space: nowrap;
+}
